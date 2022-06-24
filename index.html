@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class = "container"> 
+ 
+    <div class = "section_1">
+    <header class="header" >
+        <p>Musify</p>
+    </header>    
+
+    <div class="audios">
+
+        <!-- song 1 -->
+
+        <div class="audio">
+            <div class="audio_image">
+                <img src="./img/graveyard.jpg" alt="Graveyard Thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Grave Yard - NEFFEX</h1>
+                    <button class="btn" onclick="playAudio(5)"> Play </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- song 2 -->
+
+        <div class="audio">
+            <div class="audio_image">
+                <img src="./img/woah.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Woah - NEFFEX</h1>
+                    <button class="btn" onclick="playAudio(11)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+         <!-- song 3 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/infexted.jpg" alt="Infected thumbnail" height="132px">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Infected - Sickick</h1>
+                    <button class="btn" onclick="playAudio(6)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+         <!-- song 4 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/moana.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Moana - G-Eazy </h1>
+                    <button class="btn" onclick="playAudio(7)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+         <!-- song 5 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/rideit.jpg" alt="Woah thumbnail" height="150px">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Ride it - Jay sean</h1>
+                    <button class="btn" onclick="playAudio(2)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+         <!-- song 6 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/rightnow.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Right Now - Akon</h1>
+                    <button class="btn" onclick="playAudio(3)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+         <!-- song 7 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/Usedtoyou.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Used to you - Aligatie</h1>
+                    <button class="btn" onclick="playAudio(9)"> Play </button>
+                </div>
+            </div>
+        </div>
+
+
+         <!-- song 8 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/believer.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Believer - imagine dragons</h1>
+                    <button class="btn" onclick="playAudio(1)"> Play </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+         <!-- song 9 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/empty.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Empty - Juice Wrld</h1>
+                    <button class="btn" onclick="playAudio(4)"> Play </button>
+                </div>
+            </div>
+        </div>
+
+
+        
+         <!-- song 10 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/rockstar.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Rockstar - Post Malone</h1>
+                    <button class="btn" onclick="playAudio(8)"> Play </button>
+                </div>
+            </div>
+        </div>
+
+
+        
+         <!-- song 11 -->
+
+         <div class="audio">
+            <div class="audio_image">
+                <img src="./img/withoutme.jpg" alt="Woah thumbnail">
+                <div class="audio_detail">
+                    <h1 class="audio_title"> Without Me - Halsey</h1>
+                    <button class="btn" onclick="playAudio(10)"> Play </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+    </div>
+
+
+<!-- Section 2 -->
+    <div class="section_2">
+        <div class="thumbnail">
+            <img id="thumbnail" src="./img/graveyard.jpg">
+        </div>
+
+        <audio id="audio_player" class="audio_player" src="./audio/NEFFEX - Graveyard [Copyright Free].mp3" controls></audio>
+
+        <h1 class="audio_player_title" id="audio_player_title">Grave Yard - NEFFEX</h1>
+
+
+
+    </div>
+</div>
+
+    <script src="./App.js"></script>
+</body>
+</html>
